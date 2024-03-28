@@ -56,7 +56,11 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 2em
+}
+
+section p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -70,8 +74,16 @@ section.imagem {
 }
 
 section.imagem p {
-    display: inline-block; /*caixa que se adapta ao tamanho do conteúdo*/
     background-color: rgba(0, 0, 0, 0.164);
+    width: 500px;
+}
+
+section#img01 {
+    background-image: url(cruz.jpg);
+}
+
+section#img02 {
+    background-image: url();
 }
 
 footer {
